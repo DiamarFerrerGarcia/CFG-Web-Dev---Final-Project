@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Playfair+Display:ital,wght@0,500;1,500;1,600&display=swap" rel="stylesheet">
+        <title>Home</title>
+        <link rel="stylesheet" href="./main.css">
+    </head>
+
+    <body>
+        <header>
+            <div id="search">
+                <ul>
+                        <a href="./search.html">🔎︎ Search</a>
+                        <!--need to add icons for twitter and printerest-->
+                </ul>
+                
+            </div>
+            <div>
+
+            <div>
+                <ul>
+                    <table>
+                        <tr>
+                            <th id="c1"><a href="./home.html">Women & Art</a></th>
+                            <th id="c2"><a href="./home.html">Home</a></th>
+                            <th id="c3"><a href="./exhibitions.html">Exhibitions</a></th>
+                            <th id="c4"><a href="./art.html">Art</a></th>
+                            <th id="c5"><a href="./about.html">About</a></th>
+                          </tr>
+                      </table> 
+                    </ul> 
+            </div>
+        </header>
+        
+        <main>
+        
+            <div id="toppics">
+                <img
+                src="images/Early Years - Cover.jpg"
+                alt="Early Years"
+                width="425"
+                height="600"
+                >
+                <img
+                src="images/Middle Years - Cover.jpg"
+                alt="Middle Years"
+                width="425"
+                height="600"
+                >
+                <img
+                src="images/New Years - Cover.jpeg"
+                alt="New Years"
+                width="425"
+                height="600"
+                >  
+            </div>
+
+            <br></br>
+            <br></br>
+
+            <ul>
+                <table>
+                <tr class="toprow">
+                    <th>Image</th>
+                    <th>Content</th>
+                    <th>Space</th>
+                    <th>Subscribe</th>
+                </tr>
+                <tr>
+                    <td class="leftcorner">
+                        -
+                    </td>
+                    <td class="image">
+                        <img
+                        src="images/early years front.jpg"
+                        alt="Early years blog pic"
+                        width="300"
+                        height="300"
+                        >
+                    </td>
+                    <td class="col2"> 
+                        <h2><a href="./early years.html">Early years (1800 - 1900)</a></h2>
+                        <p><a href="./early years.html">Short description about the blog post.</a></p>
+                    </td>
+                    <td class="space">-</th>
+                    <td id="last1">            
+                        <h1 id="subscribe">Keep updated with the latest news</h1>
+                        <div class="whitebutton">
+                            <button onClick="{subscribeButton()}" id="whitebutton" onClick={subscribeButton()}>Subscribe</button>
+                        </div>                   
+                    </td>
+                </tr>
+                <tr>
+                    <td class="leftcorner">
+                        -
+                    </td>
+                    <td class="image">
+                        <img
+                        src="images/Middle years - Louise.jpg"
+                        alt="Middle years blog pic"
+                        width="300"
+                        height="300"
+                        >
+                    </td>
+                    <td class="col2">            
+                        <h2><a href="./middle years.html">Middle years (1900 - 2000)</a></h2>
+                        <p><a href="./middle years.html">Short description about the blog post.</a></p>
+                    </td>
+                    <td class="space">-</td>
+                    <td id="last2">-</td>
+                </tr>
+                <tr>
+                    <td class="leftcorner">
+                        -
+                    </td>
+                    <td class="image">            
+                        <img
+                        src="images/new years front.jpeg"
+                        alt="New years blog pic"
+                        width="300"
+                        height="300"
+                        >
+                    </td>
+                    <td class="col2">            
+                        <h2><a href="./Contemporary years.html">Contemporary years (2010 - now)</a></h2>
+                        <p><a href="./Contemporary years.html">Short description about the blog post.</a></p>
+                    </td>
+                    <td class="space">-</td>
+                    <td id="last3">-</td>
+                </tr>
+                </table> 
+            </ul> 
+
+            <div id="postsbutton"> 
+                <button id="redbutton"><a href="./art.html">All posts</a></button>
+            </div>
+
+            <br></br>
+
+            <div id="form" class="container"> 
+                <form action="signup.html" method="post" id="signup">
+                    <h1 id="h1form">Any questions? Get in touch!</h1>
+                    <div>
+                        <label for="name" class="pform">Name:</label>
+                        <input class="iform" type="text" id="name" name="name" placeholder="Enter your fullname" required>
+                        <small></small>
+                    </div>
+                    <div>
+                        <label for="email" class="pform">Email:</label>
+                        <input class="iform" type="text" id="email" placeholder="Enter your email address" required>
+                        <small></small>
+                    </div>
+                    <div>
+                        <label for="message" class="pform">Leave a message:</label>
+                        <textarea class="mform" id="message" placeholder="Write your questions" rows="3"></textarea>
+                        <small></small>
+                    </div>
+                    <button onClick="{submitButton()}" id="formbutton">Submit</button>
+                </form>
+            </div>
+        
+        
+        </main>
+
+        <footer>
+            <br></br>
+            <p>© Women & Art by Diamar Ferrer Garcia. Final project for CFG - Web development, 2022.</p>
+        </footer>
+
+        <div class="references">
+            <nav>
+                <ul>
+                    <a href="./references.html">References</a>
+                </ul>  
+        </div>
+        <script src="./js.js"></script>
+    </body>
+  
+  </html>

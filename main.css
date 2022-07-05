@@ -1,0 +1,368 @@
+body {
+    background-color: beige;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*General - Search + Top Bar*/
+
+#search {
+    background-color: black;
+    color: whitesmoke;
+    height: 50px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+}
+
+#c1 {
+    font-size: xx-large;
+    font-family: 'Playfair Display', serif;
+    width: 700px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+#c2 {
+    width: 200px;
+}
+
+#c3 {
+    width: 200px;
+}
+
+#c4 {
+    width: 200px;
+}
+
+#c5 {
+    width: 200px;
+}
+
+/*General - Form*/
+
+#form {
+    background-color: #f7a191;
+    height: 300px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+#h1form {
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+
+}
+
+.pform {
+    display: flex;
+    justify-content: center;
+}
+
+.iform {
+    position: relative;
+    margin-left: 550px;
+    height: 20px;
+    width: 250px;
+    border-radius: 10px;
+    padding-bottom: 10px;
+}
+
+
+.mform {
+    position: relative;
+    margin-left: 550px;
+    height: 20px;
+    width: 250px;
+    border-radius: 10px;
+    padding-bottom: 30px;
+}
+
+
+#formbutton {
+    background-color: #a7230b;
+    color: white; 
+    height: 50px;
+    width: 150px;
+    border-radius: 15px;
+    position: relative;
+    left: 600px;
+    border-color: #a7230b;
+}
+
+/*General - Footer*/
+
+footer {
+    background-color: #a7230b;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: small;
+}
+
+.references {
+    font-style: italic;
+    font-size: small;
+}
+
+/*General - Top Links*/
+
+a, a:focus {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    color: #a7230b;
+}
+
+a:active {
+    color: grey;
+}
+
+/*Home Page - Top pics*/
+
+#toppics {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/*Home Page - Main Section*/
+
+.toprow {
+    color: beige;
+}
+
+.leftcorner {
+    width: 100px;
+    color: beige;
+}
+
+.image {
+    width: 400px;
+    padding-bottom: 50px;
+}
+
+.col2 {
+    width: 350px;
+    border: 2px groove #a7230b;
+    border-left: beige;
+    border-top: beige;
+    border-bottom: beige;
+    padding-bottom: 250px;    
+}
+
+.space {
+    width: 50px;
+    color: beige;
+}
+
+#last1 {
+    background-color: #a7230b;
+    width: 300px;
+}
+
+#subscribe {
+    text-align: center;
+}
+
+.whitebutton {
+    padding-left: 75px;
+}
+
+#whitebutton {
+    background-color: white;
+    color: #a7230b; 
+    height: 50px;
+    width: 150px;
+    border-radius: 15px; 
+    border-color: white; 
+}
+
+#last2 {
+    background-color: beige;
+    width: 300px;
+    color: beige;  
+}
+
+#last3 {
+    background-color: beige;
+    width: 300px;
+    color: beige;  
+}
+
+#postsbutton {
+    padding-left: 150px;
+}
+
+#redbutton {
+    background-color: #a7230b;
+    color: white; 
+    height: 50px;
+    width: 150px;
+    border-radius: 15px;
+    border-color: #a7230b;
+}
+
+
+/*Exhibitions - Main section*/
+
+#frida {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.toprowex {
+    color: beige;
+}
+
+.mainrowex {
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
+}
+
+#description {
+    font-size: small;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+/*Art - Main section*/
+
+.arttable {
+    padding-top: 30px;
+    padding-bottom: 100px;
+    padding-left: 20px;
+}
+
+.tabledivision{
+    padding-left: 60px;
+
+}
+
+/*About - Main section*/
+
+#titleabout {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+#pabout {
+    padding-left: 200px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    padding-right: 20px;
+    text-align: justify;
+    font-style: bold;
+    font-size: 14px;
+}
+
+#imageabout {
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    padding-right: 200px;
+}
+
+/*Form About*/
+
+
+#a1form {
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+
+}
+
+.apform {
+    display: flex;
+    justify-content: center;
+}
+
+.aiform {
+    position: relative;
+    margin-left: 475px;
+    height: 20px;
+    width: 250px;
+    border-radius: 10px;
+    padding-bottom: 10px;
+}
+
+.amform {
+    position: relative;
+    margin-left: 475px;
+    height: 20px;
+    width: 250px;
+    border-radius: 10px;
+    padding-bottom: 30px;
+}
+
+
+#aformbutton {
+    background-color: #a7230b;
+    color: white; 
+    height: 50px;
+    width: 150px;
+    border-radius: 15px;
+    position: relative;
+    left: 525px;
+    border-color: #a7230b;
+}
+
+
+/*Search - Main section*/
+
+.searchmain {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.tablesearch {
+    padding-top: 50px;
+    padding-bottom: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+/*References - Main section*/
+
+.titlereferences {
+    display: flex;
+    justify-content: center;
+}
+
+.references1 {
+    padding-bottom: 50px;
+    padding-right: 100px;
+    text-align: center;
+    display: flex;
+    justify-content: center
+}
+
+/*
+@media screen and (max-width: 400px) {
+
+    p {
+        font-size: 1.25rem;
+    }
+
+    footer {
+        bottom: 0;
+        font-size: 0.5rem;
+      }
+}
+
+@media screen and (min-width: 800px) {
+    p {
+        font-size: 1.5rem;
+        line-height: 1.5rem;
+    }
+}
+
+*/
